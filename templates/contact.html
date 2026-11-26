@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/style.css"
+          content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+</head>
+<body>
+
+    <header>
+        <h1>Sam's Amazing Breakfast</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="index.html#about">About</a>
+            <a href="menu.html">Menu</a>
+            <a href="menu.html#specials">Specials</a>
+            <a href="contact.html">Contact us</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Have a question? Send us an enquiry.</p>
+    
+            <form>
+                <div class="mb-3">
+                    <label for="customer-name" class="form-label">
+                        Name
+                    </label>
+                    <input type="text" id="customer-name"
+                           name="customer_name" class="form-control">
+                </div>
+    
+                <div class="mb-3">
+                    <label for="customer-email" class="form-label">
+                        Email
+                    </label>
+                    <input type="email" id="customer-email"
+                           name="customer_email" class="form-control">
+                </div>
+    
+                <div class="mb-3">
+                    <label for="message" class="form-label">
+                        Message
+                    </label>
+                    <textarea id="message" name="message"
+                              class="form-control" rows="3"></textarea>
+                </div>
+    
+                <button type="button" class="btn btn-primary">
+                    Send Enquiry (preview only)
+                </button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Café Practice Website</p>
+    </footer>
+    
+</body>
+</html>
