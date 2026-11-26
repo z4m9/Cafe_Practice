@@ -46,6 +46,23 @@ section {
     border-left: 5px solid #c18b73;
 }
 
+/* Flexible Menu Layout */
+#menu ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    list-style: none;
+    padding-left: 0;
+}
+
+#menu li {
+    flex: 1 1 180px;
+    padding: 0.75rem;
+    background-color: #faf7f2;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
 /* Footer */
 footer {
     text-align: center;
@@ -73,4 +90,17 @@ footer {
     background-color: #faf7f2;
     border: 1px solid #ddd;
     border-radius: 6px;
+}
+
+/* Responsive Adjustments — Smaller Screens */
+@media (max-width: 600px) {
+    header {
+        padding: 1rem 5%;
+    }
+
+    nav a {
+        display: block;
+        margin: 0;
+        padding: 0.4rem 0;
+    }
 }
